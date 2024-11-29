@@ -12,31 +12,31 @@ import Autoplay from "embla-carousel-autoplay";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
+    name: "Shubham Verma",
     role: "Marketing Manager",
     content:
-      "Schedulrr has transformed how I manage my team's meetings. It's intuitive and saves us hours every week!",
+      "SlotSync has transformed how I manage my team's meetings. It's intuitive and saves us hours every week!",
     image: "https://i.pravatar.cc/150?img=1",
   },
   {
-    name: "David Lee",
+    name: "Sourav Sharma",
     role: "Freelance Designer",
     content:
-      "As a freelancer, Schedulrr helps me stay organized and professional. My clients love how easy it is to book time with me.",
+      "As a freelancer, SlotSync helps me stay organized and professional. My clients love how easy it is to book time with me.",
     image: "https://i.pravatar.cc/150?img=2",
   },
   {
-    name: "Emily Chen",
+    name: "Muskan Tripathi",
     role: "Startup Founder",
     content:
-      "Schedulrr streamlined our hiring process. Setting up interviews has never been easier!",
+      "SlotSync streamlined our hiring process. Setting up interviews has never been easier!",
     image: "https://i.pravatar.cc/150?img=3",
   },
   {
-    name: "Michael Brown",
+    name: "Hridan Dwivedi",
     role: "Sales Executive",
     content:
-      "I've seen a 30% increase in my meeting bookings since using Schedulrr. It's a game-changer for sales professionals.",
+      "I've seen a 30% increase in my meeting bookings since using SlotSync. It's a game-changer for sales professionals.",
     image: "https://i.pravatar.cc/150?img=4",
   },
 ];
