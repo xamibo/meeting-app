@@ -6,20 +6,16 @@ import { checkUser } from "@/lib/checkUser";
 import UserMenu from "./user-menu";
 import { Button } from "./ui/button";
 import { PenBox } from "lucide-react";
+import {CalendarDays} from "lucide-react";
 
 const Header= async()=> {
   await checkUser();
 
   return (
     <nav className="mx-auto py-2 px-4 flex justify-between items-center shadow-md border-b-2">
-      <Link href="/" className="flex items-center">
-        <Image
-          src="/logo.png"
-          width="150"
-          height="60"
-          alt="Schedulrr Logo"
-          className="h-16 w-auto"
-        />
+      <Link href="/" className="text-blue-600 font-bold text-3xl flex gap-1 items-center">
+      <CalendarDays size={24}/>
+      SlotSync
       </Link>
 
       <div className="flex items-center gap-4">
